@@ -1,18 +1,15 @@
-title: Helper
+title: 辅助函数（Helper）
 ---
-A helper makes it easy to quickly add snippets to your templates. We recommend using helpers instead of templates when you're dealing with more complicated code.
+辅助函数帮助您在模板中快速插入内容，建议您把复杂的代码放在辅助函数而非模板中。
 
-Helpers can not be accessed from `source` files.
-
-## Synopsis
+## 概要
 
 ``` js
 hexo.extend.helper.register(name, function(){
-  // ...
 });
 ```
 
-## Example
+## 范例
 
 ``` js
 hexo.extend.helper.register('js', function(path){
@@ -24,9 +21,3 @@ hexo.extend.helper.register('js', function(path){
 <%- js('script.js') %>
 // <script type="text/javascript" src="script.js"></script>
 ```
-
-## FAQ
-
-### Where to place custom helper?
-
-Place it under `themes/<yourtheme>/scripts`
