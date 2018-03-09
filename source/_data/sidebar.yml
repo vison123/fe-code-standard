@@ -1,4 +1,4 @@
-docs:
+react:
   getting_started:
     overview: index.html
     setup: setup.html
@@ -26,7 +26,7 @@ docs:
     troubleshooting: troubleshooting.html
     contributing: contributing.html
 
-api:
+vue:
   core:
     overview: index.html
     events: events.html

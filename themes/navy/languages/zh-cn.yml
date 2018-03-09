@@ -1,6 +1,6 @@
 menu:
-  docs: React
-  api: Vue
+  react: React
+  vue: Vue
 
 index:
   get_started: 开始使用
@@ -14,7 +14,7 @@ page:
   last_updated: 上次更新：%s
 
 sidebar:
-  docs:
+  react:
     getting_started: 开始使用
     overview: 概述
     setup: 建站
@@ -42,7 +42,7 @@ sidebar:
     miscellaneous: 其他
     troubleshooting: 问题解答
     contributing: 贡献
-  api:
+  vue:
     core: 核心
     overview: 概述
     events: 事件
